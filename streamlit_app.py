@@ -35,7 +35,7 @@ def main():
                 st.write(f"Contemplating the height {st.session_state.height}...")
                 time.sleep(3)
             st.balloons()
-            st.write(f"Wow, {st.session_state.name}, smell like a {st.session_state.height} turd that's been sitting out in the sun for {st.session_state.age} years!")
+            st.subheader(f"Wow, {st.session_state.name}, you smell like a {st.session_state.height} turd that's been sitting out in the sun for {st.session_state.age} years!")
 
 
 if __name__ == '__main__':
