@@ -7,7 +7,6 @@ def config():
     st.set_page_config(
         page_title="Welcome",
         page_icon=":robot_face:",
-        layout="wide"
     )
 
 def validate_form():
